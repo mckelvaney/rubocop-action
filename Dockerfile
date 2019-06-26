@@ -1,4 +1,5 @@
-FROM ruby:2.6.3
+ARG VERSION=2.6.3
+FROM ruby:$VERSION
 
 LABEL com.github.actions.name="Rubocop checks"
 LABEL com.github.actions.description="Lint your Ruby code in parallel to your builds"
