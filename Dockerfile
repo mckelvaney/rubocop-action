@@ -1,4 +1,4 @@
-ARG VERSION=2.6.3
+ARG VERSION=2.4.1
 FROM ruby:$VERSION
 
 LABEL com.github.actions.name="Rubocop checks"
